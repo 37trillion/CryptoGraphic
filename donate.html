@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cryptographic - Donate Cryptographic</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="donate.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="coin.html">Buy Cryptographic</a></li>
+                <li><a href="donate.html">Donate Cryptographic</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Donate Cryptographic</h1>
+        <p>To donate Cryptographic on the Polygon network, send your desired amount to the following address:</p>
+        <p>0x8a35536B59f2D0a6866A90c8EfA331B5E1FB7f0a</p>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="amount">Enter the amount of Cryptographic to donate:</label>
+                <input type="number" name="amount" id="amount" min="0" step="any" required>
+            </div>
+            <div class="form-group">
+                <label for="address">Enter your Polygon address:</label>
+                <input type="text" name="address" id="address" required>
+            </div>
+            <button type="submit" class="btn-donate" id="btn-donate">Donate Cryptographic</button>
+        </form>
+    </main>
+    <script src="web3.min.js"></script>
+    <script src="walletconnect.min.js"></script>
+    <script src="main.js"></script>
+    <script src="donate.js"></script>
+</body>
+</html>
